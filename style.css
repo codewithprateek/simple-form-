@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: url("https://source.unsplash.com/user/erondu/1600x900"
+    )
+   
+    
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: Akaya Telivigala;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+.myInput {
+    display: flex;
+    width: 479px;
+    height: 23px;
+    margin: 6px;
+    padding: 2px;
+    border: 1px solid rgb(242, 112, 10);
+    outline: none;
+    font-size: 14px;
+    font-family: Akaya Telivigala;
+}
+.btn {
+    margin: 7px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #f2700a;
+    border: 2px solid red;
+    border-radius: 9px;
+    font-family: Akaya Telivigala;
+}
